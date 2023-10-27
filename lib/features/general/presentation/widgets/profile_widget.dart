@@ -47,7 +47,7 @@ class ProfileWidget extends StatelessWidget {
                           ),
                         ),
                         Flexible(
-                          fit: FlexFit.loose,
+                          fit: FlexFit.tight,
                           flex: 2,
                           child: Text(': ${state.profile.name}',
                               textAlign: TextAlign.left,
